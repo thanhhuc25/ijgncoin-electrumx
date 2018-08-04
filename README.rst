@@ -1,19 +1,19 @@
-.. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master
-    :target: https://travis-ci.org/kyuupichan/electrumx
-.. image:: https://coveralls.io/repos/github/kyuupichan/electrumx/badge.svg
-    :target: https://coveralls.io/github/kyuupichan/electrumx
+===============================================
+Ijgncoin ElectrumX - Reimplementation of electrum-server
+===============================================
 
-===============================================
-ElectrumX - Reimplementation of electrum-server
-===============================================
+This is SPV server for Electrum wallet
 
 For a future network with bigger blocks.
 
-  :Licence: MIT
+  :Licence: IJGN
   :Language: Python (>= 3.6)
-  :Author: Neil Booth
 
 Documentation
 =============
-
-See `readthedocs <https://electrumx.readthedocs.io/>`_.
+- Clone project
+- cd ijgncoin-electrumx
+- virtualenv -p python3 env
+- source env/bin/activate
+- edit `server.conf` file in the same directory
+- run: `./electrumx_server start`
