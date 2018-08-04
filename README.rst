@@ -18,3 +18,6 @@ Documentation
 - python setup.py install
 - edit `server.conf` file in the same directory
 - run: `./electrumx_server start`
+
+
+Sample `server.conf` file
