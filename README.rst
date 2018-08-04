@@ -15,5 +15,6 @@ Documentation
 - cd ijgncoin-electrumx
 - virtualenv -p python3 env
 - source env/bin/activate
+- python setup.py install
 - edit `server.conf` file in the same directory
 - run: `./electrumx_server start`
